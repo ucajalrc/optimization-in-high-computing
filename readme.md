@@ -9,11 +9,12 @@ This project demonstrates how to benchmark and compare two implementations of a 
 ## 📂 Project Structure
 
 
-benchmark.py                # Main benchmark script
-optimization_technique.py   # The prototype for the code
-runtime_vs_n.png            # Runtime vs input size plot (optional)
-speedup_vs_n.png            # Speedup vs input size plot (optional)
-README.md                   # This file
+1. benchmark.py                # Main benchmark script
+2. optimization_technique.py   # The prototype for the code
+3. runtime_vs_n.png            # Runtime vs input size plot (optional)
+4. speedup_vs_n.png            # Speedup vs input size plot (optional)
+5. README.md                   # This file
+6. optimization paper.docx     # detailed report of the system
 
 
 ## Requirements
@@ -30,7 +31,7 @@ README.md                   # This file
    python3 -m venv venv
    source venv/bin/activate        # Mac/Linux
    venv\Scripts\activate           # Windows
-```
+    ```
 
 2. **Install optional dependencies** (only needed for plots):
 
